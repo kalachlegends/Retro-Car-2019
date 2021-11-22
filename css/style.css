@@ -20,20 +20,27 @@ backdrop-filter: blur(150px)
 
 .retrocar{
 position: absolute;
+
 z-index: 100;
 left: 92.84px;
 top: 166px;
 
 }
-
-.swiper-position{
-	height: 1030px;
-
-}
 @media (max-width: 768px) {
-.swiper-position{
-   width: 768px;
+	.retrocar {
+left: 32px;
+
   }
+.retrocar img{
+
+width: 362px;
+  }
+}
+
+
+.swiper-position{
+	height: 1090px
+
 }
 
       .swiper {
@@ -41,10 +48,20 @@ top: 166px;
         height: 100%;
 
 
+}
 
-
-      }
-
+@media (max-width: 562px) {
+	.swiper {
+      width: 150%;
+        height: 100%;
+  }
+}
+@media (max-width: 374px) {
+	.swiper {
+      width: 170%;
+        height: 100%;
+  }
+}
       .swiper-slide {
 
 
@@ -85,6 +102,13 @@ line-height: 44px;
 
 color: #FFFFFF;
       }
+      @media (max-width: 768px) {
+	.let20 {
+font-size: 30px;
+
+  }
+}
+.
         .let21{
       	font-family: Montserrat;
 border: none;
@@ -96,14 +120,21 @@ line-height: 44px;
 
 }
 
+
 .contlet20{
 	position: absolute;
-width: 481.16px;
+width: 456.16px;
 height: 44px;
 left: 92.84px;
 top: 313px;
 z-index: 1000;
 background: #C4C4C4;
+}
+@media (max-width: 768px) {
+	.contlet20 {
+left: 32px;
+width: 400.16px;
+  }
 }
 .retrotext{
 	position: absolute;
@@ -114,6 +145,13 @@ top: 507px;
 z-index: 1000;
 background: black;
 }
+@media (max-width: 768px) {
+	.retrotext {
+left: 32px;
+width: 525.16px;
+  }
+}
+
 .button-text{
 	font-family: Montserrat;
 font-style: normal;
@@ -126,6 +164,14 @@ top: 16px;
 position: absolute;
 
 }
+@media (max-width: 768px) {
+	.button-text {
+font-size: 20px;
+left: 31px;
+top: 12px;
+  }
+}
+
 .button1 {
 	position: absolute;
 width: 255.16px;
@@ -135,6 +181,18 @@ top: 687.09px;
 z-index: 1000;
 background: #000000
 }
+@media (max-width: 768px) {
+	.button1 {
+left: 32px;
+width: 230.16px;
+height: 51px;
+  }
+}
+.button1:hover {
+	transition: 0.2s;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+
 a{
 	text-decoration: none;
 }
@@ -148,10 +206,24 @@ transition: 0.4s;
 width: 255.16px;
 height: 61px;
 left: 368.19px;
+
 top: 687.09px;
 z-index: 1000;
 background: #000000
 }
+.button2:hover {
+		transition: 0.2s;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+
+@media (max-width: 768px) {
+	.button2 {
+left:274.19px;
+width: 230.16px;
+height: 51px;
+  }
+}
+
 .button-text1{
 	font-family: Montserrat;
 font-style: normal;
@@ -163,6 +235,13 @@ left: 44px;
 top: 16px;
 position: absolute; 
 }
+@media (max-width: 768px) {
+.button-text1 {
+font-size: 20px;
+left: 44px;
+top: 10px;
+  }
+}
 
 .timer{
 	position: absolute;
@@ -173,6 +252,13 @@ top: 778.64px;
 z-index: 1000;
 background: #000000;
 }
+@media (max-width: 768px) {
+	.timer{
+left: 32px;
+width: 467.69px;
+  }
+}
+
 .timer-text{
 
 font-family: Montserrat;
@@ -183,6 +269,14 @@ line-height: 44px;
 
 color: #FFFFFF;
 }
+@media (max-width: 768px) {
+	.timer-text{
+font-weight: 500;
+font-size: 30px;
+
+  }
+}
+
 .timer-bold-text{
 font-weight: 700;
 }
@@ -190,6 +284,13 @@ font-weight: 700;
       display: flex;
       font-size: 48px;
     }
+@media (max-width: 768px) {
+	.timer__items  {
+ display: flex;
+      font-size: 38px;
+
+  }
+}
 
     .timer__item {
       position: relative;
@@ -288,7 +389,7 @@ color: #FFFFFF;
 
   .header__body {
     height: 50px;
-      place-items: self-end;
+     align-items: center;
   }
   .header__logo {
     flex: 0 0 80px;
