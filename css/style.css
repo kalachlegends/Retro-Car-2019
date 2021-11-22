@@ -20,48 +20,53 @@ backdrop-filter: blur(150px)
 
 .retrocar{
 position: absolute;
-
+width: 100%;
 z-index: 100;
 left: 92.84px;
 top: 166px;
 
 }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
 	.retrocar {
 left: 32px;
+width: 80%;
 
   }
-.retrocar img{
+}
+@media (max-width: 600px) {
+	.retrocar {
+left: 32px;
+width: 80%;
+top: 106px;
+  }
+}
 
-width: 362px;
+.retrocar img{
+max-width: 90%;
+
   }
 }
 
 
 .swiper-position{
-	height: 1090px
+
 
 }
 
       .swiper {
         width: 100%;
-        height: 100%;
+        height: 140%;
 
-
+height: 1090px
 }
 
-@media (max-width: 562px) {
+@media (max-width: 600px) {
 	.swiper {
-      width: 150%;
-        height: 100%;
+
+	height: 600px
   }
 }
-@media (max-width: 374px) {
-	.swiper {
-      width: 170%;
-        height: 100%;
-  }
-}
+
       .swiper-slide {
 
 
@@ -102,7 +107,7 @@ line-height: 44px;
 
 color: #FFFFFF;
       }
-      @media (max-width: 768px) {
+      @media (max-width: 1000px) {
 	.let20 {
 font-size: 30px;
 
@@ -130,7 +135,7 @@ top: 313px;
 z-index: 1000;
 background: #C4C4C4;
 }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
 	.contlet20 {
 left: 32px;
 width: 400.16px;
@@ -145,7 +150,7 @@ top: 507px;
 z-index: 1000;
 background: black;
 }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
 	.retrotext {
 left: 32px;
 width: 525.16px;
@@ -164,7 +169,7 @@ top: 16px;
 position: absolute;
 
 }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
 	.button-text {
 font-size: 20px;
 left: 31px;
@@ -181,7 +186,7 @@ top: 687.09px;
 z-index: 1000;
 background: #000000
 }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
 	.button1 {
 left: 32px;
 width: 230.16px;
@@ -216,7 +221,7 @@ background: #000000
   box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
 	.button2 {
 left:274.19px;
 width: 230.16px;
@@ -235,7 +240,7 @@ left: 44px;
 top: 16px;
 position: absolute; 
 }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
 .button-text1 {
 font-size: 20px;
 left: 44px;
@@ -252,7 +257,7 @@ top: 778.64px;
 z-index: 1000;
 background: #000000;
 }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
 	.timer{
 left: 32px;
 width: 467.69px;
@@ -269,7 +274,7 @@ line-height: 44px;
 
 color: #FFFFFF;
 }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
 	.timer-text{
 font-weight: 500;
 font-size: 30px;
@@ -284,7 +289,7 @@ font-weight: 700;
       display: flex;
       font-size: 48px;
     }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
 	.timer__items  {
  display: flex;
       font-size: 38px;
