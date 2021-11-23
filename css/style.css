@@ -3,6 +3,9 @@
 * {box-sizing: border-box;}
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
+/*	background: rgba(241, 241, 241, 1);*/
+		 	font-family: Montserrat;
+	background-color: #131313;
  overflow-x: hidden;
 }
 
@@ -494,12 +497,13 @@ font-weight: 700;
   width: 100%;
 height: 80px;
 
-background: rgba(24, 15, 6, 0.9);
-box-shadow: 0px 0px 24px rgba(126, 120, 120, 0.1);
+background: rgba(19, 19, 19, 1);
+
+box-shadow: 0px 0px 34px rgba(126, 120, 120, 0.1);
 backdrop-filter: blur(150px)
   z-index: 2;
 }
-@media (max-width: 600px) {
+@media (max-width: 990px) {
 .header:before {
 
 
@@ -645,4 +649,59 @@ font-style: italic;
 font-weight: 300;
 font-size: 16px;
 color: #977761;
+}
+
+
+
+.text-news{
+
+	 	font-family: Montserrat;
+
+	font-weight: 600;
+	font-size: 60px;
+	line-height: 44px;
+	color: white;
+	background: none;
+	margin-bottom: 	20px;
+
+
+}
+@media (max-width: 1000px) {
+	.text-news{
+font-size: 42px;
+  }
+}
+
+@media (max-width: 600px) {
+	.text-news{
+font-size: 32px;
+margin-bottom: 	15px;
+  }
+}
+@media (max-width: 450px) {
+	.text-news{
+font-size: 28px;
+margin-bottom: 	0px;
+  }
+}
+@media (max-width: 350px) {
+	.text-news{
+font-size: 22px;
+margin-bottom: 	0px;
+  }
+}
+.monserat{
+		 	font-family: Montserrat;
+}
+.back{
+	background-color: rgba(126, 120, 120, 0.8);
+
+
+}
+.footer{
+	background-color: white
+
+}
+iframe{
+	width: 100%;
 }
